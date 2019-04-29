@@ -1,0 +1,39 @@
+﻿In chemistry and physics, atomic theory is a scientific theory that predicts that matter is made up of fundamental units called atoms. An atom, according to this theory, is an extremely small particle, but is not infinitely small.
+<BR><BR>
+<H3> History </h3> <BR>
+<Div align = "center>
+<IMG SRC = "./pic/René_Descartes.jpg" ALT = "Descartes" HEIGHT = "350px" WIDTH = "400px" border = 0>
+<H5> Rene Descartes </h5> </div> <BR><Div align = "left">
+The atomic theory had been proposed by philosophers like Descartes, before it has an experimental basis. There was, from ancient times, two hypotheses about the composition of matter, it would be formed by particles that could not be divided, or there would be no limit to the divisibility of matter. The first idea is usually attributed to the Epicureans, but its origins may be even older. The cosmogony Democritus is based on this idea, which he derived from Leucippus. According Daubeny, Mosco, a Phoenician who flourished before the Trojan War, would have these ideas, as well as monads of Pythagoras, whose origin was Egyptian. According to Mr. Colebrooke, quoted by Daubeny, Hindus also had, in the past, an atomic theory. <BR>
+
+To The atomic theory of Epicurus, there was nothing but matter and space, and the matter formed by unbreakable geometric shapes, in various forms, such as round, square, lightning, etc., but in a finite number of different ways. These atoms had two intrinsic properties of motion, a natural tendency to go down and the movement caused by their collisions that would make atoms turn away. In addition to these two movements, according to Epicurus, some atoms possess a third movement, which would let them down in slanting paths or curves. The solids would be produced by these atoms when they were in compact form, however liquids, waxes, wood or vapor when they were less compact. <BR>
+
+
+<H3> Opposition to the Theory </h3> <BR> <div align = "center">
+<IMG SRC = "./pic/Leibniz.jpg" ALT = "Leibniz" HEIGHT = "350px" WIDTH = "400px" border = 0>
+<H5> Leibniz </h5> </div> <BR>
+
+The atomic theory had, as opposition, the theory of the four elements of Empedocles, according to which all matter is composed of earth, air, fire and water, mixed in different proportions. <BR>
+Leibnitz opposed the atomic theory because it contradicted two of its dogmas, the theory of continuity and the doctrine of sufficient reason.
+
+Atoms should be infinitely stiff and inelastic, so when there was a collision of two coming atoms in the opposite direction, they should immediately stop their movement, it would go to a fast moving state to a resting state, contrary to the law of continuity, for which no change can occur abruptly, without passing through intermediate stages.
+
+The arguments of the Cartesian against the atomic theory is based on mathematics, because no body, from a mathematical point of view, can be considered indivisible.
+
+Abbé Boscovich, a disciple of Leibnitz, proposed that all matter was composed of points (in the mathematical sense) that repel when they were very close, but that would attract very distant. To explain the properties of water (in its three states), Boscovich assumed that two water particles would repel when very close, and there, according to the distance separating them, regions where there are attraction and regions where there would be repulsion.
+<BR>
+<H3> theory of Evidence </h3> <BR>
+The experimental basis of the atomic theory is a simple law that surprisingly went unnoticed for scientists for a long time. It is the fact that the combinations of bodies is closely regulated.
+
+The first step in the discovery of this law was given by German chemist Wenzel that work with Lehre von den Verwandschaften, published in 1777 Dresden, showed that when two neutral salts react with each other, the result is two other neutral salts, in which proportions of the constituents are retained. <BR>
+<Div align = "center">
+<IMG SRC = "./pic/Sulfuric_acid.png" ALT = "sulfuric acid" HEIGHT = "350px" WIDTH = "400px" border = 0>
+<H5> Sulfuric Acid Molecule </h5> </div> <BR>
+
+For example, the reaction of 19.7 g of anhydrous silver sulfate (consisting of 5 grams of sulfuric acid with 14.7 grams of silver oxide) with 16.5 grams of barium nitrate (consisting of 6.75 g of nitric acid with 9.75 grams of barium oxide is produced 21.5 grams of silver nitrate and 14.75 grams of barium sulfate. Thus, it is observed that there is a symmetry in the reaction, 21 5 grams of silver nitrate are the result of neutralization of 6.75 grams of nitric acid with 9.75 grams of barium oxide and 14.75 grams of barium sulfate are the result of neutralization of 5 grams of sulfuric acid with 9.75 grams of barium oxide.
+
+With this, it is shown that 5 grams of sulfuric acid is equivalent to 6.75 grams of nitric acid, and 14.75 grams of silver oxide 9.75 barium oxide. [Note 5] Analogously, the same schema It can be used to analyze the reaction 21.5 grams of silver nitrate with 7.5 grams of anhydrous sodium phosphate, resulting in 10.75 grams of sodium nitrate and 18.25 grams of silver phosphate. The conclusion is that 5 grams sulfuric acid, nitric acid and 6.75 to 3.5 equivalents of phosphoric acid, and 4 grams of sodium oxide, 9.75 for barium oxide and silver oxide 14.75 .
+
+Richter, a Prussian chemist, expanded the work of Wenzel, and put all the chemicals in a single scale measuring their relative abilities saturation of acids and bases, making the chemical, which until then had only been a qualitative science, become a quantitative science. The text Richer, published in 1792, was called Anfangsgründe der Stoichiometrie.
+
+The next step was given by Mr. Higgins, who, in 1789, work entitled A Comparative View of the phlogistic and anti-phlogistic Theories proposed that the difference between the sulphurous acid and sulfuric acid is that, at first, a particle sulfur combines with oxygen of the particle, while the second, the particle sulfur combines with oxygen two. Furthermore, the compounds of nitrogen and oxygen, these are combined in the proportions of 1 to 1,2,3,4 and 5.

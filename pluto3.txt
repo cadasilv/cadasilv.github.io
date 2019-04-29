@@ -1,0 +1,52 @@
+January 19, 2006:<br>
+NASA’s "New Horizons" spacecraft - the first ever mission to Pluto and the Kuiper Belt (a distant region of ancient, icy, rocky objects at the edge of the solar system) - successfully launched from Cape Kennedy in Florida on 19th January, 2006.  The spacecraft is certain to send a significant amount of new information back to Earth.  The huge distance to Pluto means that New Horizons is not expected to arrive at its destination until July 2015<BR><BR><HR>
+
+ <IMG SRC="./Images/NHLiftOff.jpg" ALT="Plutao" HEIGHT="399" WIDTH="650" border=0<BR>
+<h5>The spacecraft was launched using the New Horizons booster, a Lockheed Martin Atlas 5 first stage with five strap-on solid rocket boosters from Cape Kennedy in Florida on 19th January, 2006</h5>
+
+<br><hr>July 14, 2015:<br>
+Why Do We Have To Wait So Long To Learn About Pluto?<br>
+
+
+Earlier this morning, after traveling three billion miles (five billion km) through the Solar System over ten years, NASA’s New Horizons spacecraft made its closest approach to Pluto. It hit its target window — which was just 60 x 90 km in size — spot on, arriving within one second of its predicted time at launch. The successful encounter left both New Horizons team members and the general public in ecstasy.<br><br>
+
+ <IMG SRC="./Images/0711pluto.png" ALT="Plutao" HEIGHT="399" WIDTH="650" border=0<BR>
+<h5>This image sent to Earth on Monday and released by NASA on Tuesday showed a variety of distinct colors and zones. Credit NASA, via Associated Press</h5>
+<br><hr> 
+
+
+
+New Horizons is outfitted with some amazing equipment, including cameras, spectrographs and particle detectors, and is outfitted with the latest (at the time of its launch) data storage and transmission equipment. You might expect that all we’d have to do is take the data — which is basically instantaneous — and transmit it at the speed of light back to Earth. While it takes sunlight more than eight minutes to reach Earth and data from Mars over twenty minutes, New Horizons (and Pluto) is so distant that it takes more than four hours for New Horizons’ data to return to us.<br><br>
+
+
+<IMG SRC="./Images/nhposi.jpg" ALT="Plutao" HEIGHT="399" WIDTH="650" border=0<BR>
+
+<h5>Image credit: NASA/JHUAPL/SWRI, via http://www.nasa.gov/feature/one-million-miles-to-go-pluto-is-more-intriguing-than-ever, from July 11th.</h5><BR><hr><br>
+
+But there’s a little more to it than that! Sure, we can return these images and view them what seems like immediately. What you might not realize, however, is just how mind-bogglingly long it takes to get this data from Pluto back to Earth. While it’s true that a photon is a photon, to catch and collect a photon from such a great distance away is a truly incredible feat. Light spreads out over distance, and at three billion miles away, it takes a seventy-meter diameter telescope to capture the faint, diffuse signal arriving on Earth from New Horizons. Even with a telescope that large, it can only collect 125 bytes of data per second. For a single image from the LORRI instrument, which is about a 2.5 megabit image when compressed, it takes over 20 minutes for the data transfer to take place, and even that involves using some specialized techniques to boost the signal (by 190%) that were only developed once the spacecraft was already en route!
+
+<br><br><hr>
+New Horizons is not only poised to fly by Pluto, it’s going to pass directly behind the planet from the point-of-view of the Sun, allowing for a spectacular phenomenon: an occultation. While occultations are pretty common when you’re close to a planet (someone on the Moon’s surface sees roughly two a year: during total lunar eclipses), they enable something spectacular to occur. You see, when the Sun dips behind the limb of Pluto, there will be a brief period of time where we’ll be able to detect all the light that’s absorbed by the Plutonian atmosphere, allowing us to determine:
+<br><br>
+its composition,<br>
+its density,<br>
+its cloud conten?<br>
+and the full spectrum of the absorption features present.<br>
+In addition to that, all the other instruments on board will be collecting data of Pluto, its moons (potentially discovering new ones beyond the five known), and more.
+<br><hr>
+<IMG SRC="./Images/pluto4.jpg" ALT="Plutao" HEIGHT="399" WIDTH="650" border=0<BR>
+
+<h5>Image credit: NASA/JHUAPL/SWRI, of Pluto (and Charon) at New Horizon’s final approach, less than 500,000 miles from the surface.</h5><br><br>
+
+While we’ve been getting a “tease” of images coming from New Horizons as its approached the Plutonian system, the reality is that it’s been taking data for years. Now that the flyby is complete — and data taking continues — it will finally begin pointing towards Earth and transmitting its data back to us tonight, where the plan is to send back the most visually spectacular images first.
+
+But what’s truly spectacular is the full suite of knowledge we’re poised to gain. While New Horizon’s main data taking mission will complete later today, the data sending part of it will take a full sixteen months before it’s done. And when you consider how dramatically New Horizons has changed our view of Pluto already, you can only imagine how much more we’ll wind up learning.
+
+Ethan Siegel is the writer and founder of Starts With A Bang, a NASA columnist and professor at Lewis & Clark College. Follow him on Twitter, Facebook, Google+, and support his Patreon.
+
+
+
+
+
+
+

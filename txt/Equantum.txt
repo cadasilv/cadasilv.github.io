@@ -1,0 +1,23 @@
+﻿<H3> Quantum Theory </ h3>
+
+Quantum theory is also known as quantum mechanics or quantum physics theory, and its main focus is the study of the microscopic world. <BR> <HR>
+
+The principles of energy quantization, proposed by Einstein and Planck, and experimental observations of the atomic spectrum of elements showed that Newton's laws did not produce correct results when applied to very small systems, such as atoms and molecules. <BR> <HR>
+<IMG SRC = "./pic/tq2.jpg" ALT = "Quantum Theory" HEIGHT = "50%" WIDTH = "100%" border = 0 <BR>
+<H5> atomic Particles in Quantum world. </ H5> <br>
+To explain the movement of electrons around the nucleus was created - by Planck, Bohr, Einstein and Schrodinger - a new theory, Quantum Mechanics.
+
+Despite its huge success, Bohr's theory had various shortcomings. The spectrum of more complex atoms could not be explained, generating questions as: why some spectrum rays are more intense than others? More importantly, the atoms interact with each other forming stable systems?
+<BR> <HR>
+In 1911, Rutherford proposed an atomic model in which electrons (e-) circulated the positively charged nucleus, analogous to the motion of the planets around the sun. Though simple and consistent, this model had an uncorrectable error, because every particle which describes a circular motion has acceleration. Thus, as was explained Maxwell through his equations, having accelerated the electron should emit light, gradually losing energy until it crashes into the core.
+<BR> <HR>
+<IMG SRC = "./pic/tq4.jpg" ALT = "Quantum Theory" HEIGHT = "50%" WIDTH = "100%" border = 0 <BR>
+<H5> position of electrons in microscopic world of quantum theory. </ H5> <br>
+Bohr, based on the concepts of quantization, stipulated that the energy of electrons in their orbits around the nucleus was also quantized. That is, an atom of hydrogen as there are several possible stable orbits for electrons, each with a different energy. So he was able to correct the model of Rutherford.
+
+But only with the work of Erwin Schrodinger and Werner Heisenberg in 1925, it is that quantum theory was established. Schrodinger postulated an equation for calculating the energy levels and the probability of finding a particle in a given region.
+<BR> <HR> <IMG SRC = "./pic/tq3.jpg" ALT = "Quantum Theory" HEIGHT = "50%" WIDTH = "100%" border = 0 <BR>
+<H5> subatomic particles after being bombarded in the particle accelerator. </ H5> <br>
+By Newton's laws, we can describe the motion of the electrons (position and velocity) from the forces acting on them. Quantum Theory, in turn, calculates the probability of finding the electron (or other particle) in a region of space using the Schrodinger equation.
+
+</ Font> </ div>

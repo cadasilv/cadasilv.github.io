@@ -1,0 +1,108 @@
+﻿<html>
+<head>
+<title>指數科學理論</title>
+<link rel="stylesheet" href="stilo1.css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" marginwidth="0" marginheight="0" leftmargin="0" topmargin="0">
+<div align="center">
+  <h3> 科學理論</h3>
+</div>
+<div align="center"><table width="50%" border="1" cellspacing="2" cellpadding="2" align="center">
+  <tr> 
+  <th><a href="index.html">葡萄牙語</a></th>
+  <th><a href="Eindex.html">英語</a></th>
+  <th><a href="Sindex.html">西班牙語</a></th>
+  <th><a  href="Cindex.html">中文</a></th>
+</tr></Table></div>
+<table width="90%" border="0" cellspacing="2" cellpadding="2" align="center">
+  <tr> 
+    <td width="20%" align="center">&nbsp;</td>
+    <td width="60" align="center"> <table width="100%" border="0" cellspacing="0" cellpadding="4">
+        <tr> 
+          <td align="center" valign="top" width="33%"> <a href="Ctheorias.html"><img src="pic/homo6.png" name="image" width="70" height="70" border="0"></a><br>
+            理論</td>
+          <td align="center" valign="top" width="33%"> <a href="CgodPt.html"><img src="pic/atomos.png" name="image" width="70" height="70" border="0"></a><br>
+            希格斯玻色子</td>
+          <td align="center" valign="top" width="33%"> <a href="Cquanticat.html"><img src="pic/atomos2.png" name="image" width="70" height="70" border="0"></a><br>
+            量子理論</td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top" colspan="3"> <hr noshade size="1"> </td>
+        </tr>
+      </table></td>
+    <td width="20%" align="center">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="20%" align="center">&nbsp;</td>
+    <td width="60" align="center"> <table width="100%" border="0" cellspacing="0" cellpadding="4">
+        <tr> 
+          <td align="center" valign="top" width="33%"> <a href="Cbigbangt.html"><img src="pic/bg2.png" name="image" width="70" height="70" border="0"></a><br>
+            大爆炸理論</td>
+          <td align="center" valign="top" width="33%"> <a href="Cblackht.html"><img src="pic/BH1.png" name="image" width="70" height="70" border="0"></a><br>
+            黑洞理論</td>
+          <td align="center" valign="top" width="33%"> <a href="Cevolucaot.html"><img src="pic/dino2.png" name="image" width="70" height="70" border="0"></a><br>
+        進化論</td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top" colspan="3"> <hr noshade size="1"> </td>
+        </tr>
+      </table></td>
+    <td width="20%" align="center">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="20%" align="center">&nbsp;</td>
+    <td width="60" align="center"> <table width="100%" border="0" cellspacing="0" cellpadding="4">
+        <tr> 
+          <td align="center" valign="top" width="33%"> <a href="Cmultiverset.html"><img src="pic/tq4.png" name="image" width="70" height="70" border="0"></a><br>
+            多元宇宙理論</td>
+          <td align="center" valign="top" width="33%"> <a href="Crelatividadet.html"><img src="pic/rela.png" name="image" width="70" height="70" border="0"></a><br>
+            相對論</td>
+          <td align="center" valign="top" width="33%"> <a href="Cstringt.html"><img src="pic/qPC.png" name="image" width="70" height="70" border="0"></a><br>
+            超弦理論</td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top" colspan="3"> <hr noshade size="1"> </td>
+        </tr>
+      </table></td>
+    <td width="20%" align="center">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="20%" align="center">&nbsp;</td>
+    <td width="60" align="center"> <table width="100%" border="0" cellspacing="0" cellpadding="4">
+        <tr> 
+          <td align="center" valign="top" width="33%"> <a href="Catomica.html"><img src="pic/bg1.png" name="image" width="70" height="70" border="0"></a><br>
+            原子理論</td>
+          <td align="center" valign="top" width="33%"> <a href="Cdalton.html"><img src="pic/DJ.png" name="image" width="70" height="70" border="0"></a><br>
+            道爾頓理論</td>
+          <td align="center" valign="top" width="33%"> <a href="Csim.html"><img src="pic/sim1.png" name="image" width="70" height="70" border="0"></a><br>
+            模擬理論</td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top" colspan="3"> <hr noshade size="1"> </td>
+        </tr>
+      </table></td>
+    <td width="20%" align="center">&nbsp;</td>
+  </tr>
+  <table width="90%" border="0" align="center" cellpadding="2" cellspacing="2" dwcopytype="CopyTableRow">
+  <tr> 
+    <td width="20%" align="center">&nbsp;</td>
+    <td width="60" align="center"> <table width="100%" border="0" cellspacing="0" cellpadding="4">
+        <tr> 
+          <td align="center" valign="top" width="33%">
+<a href="Centangle.html"> <img src="pic/tangle13.png" name="imaje" width="70" height="70" border="0"></a><br>
+            糾纏理論</td>
+          <td align="center" valign="top" width="33%"> <a href="Cexotic.html"> <img src="pic/fifth4.png" name="imaje" width="70" height="70" border="0"></a><br>
+            第五種力外來物質</td>
+          <td align="center" valign="top" width="33%"><a href="Cstandard.html"> <img src="pic/sta1.png" name="imaje" width="70" height="70" border="0"></a><br>標準模型</td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top" colspan="3"> <hr noshade size="1"> </td>
+        </tr>
+      </table></td>
+    <td width="20%" align="center">&nbsp;</td>
+  </tr>
+</table>
+</table>
+</body>
+</html>
