@@ -1,0 +1,27 @@
+ <html>
+<head>
+ <meta name="viewport" content="width=device-width">
+    <meta http-equiv="content-type" content="text/html;  charset=utf-8">
+    <link href="Tstyle.css" rel="stylesheet"  type="text/css" />
+</head>
+<body>
+    <div id="content">
+
+        <h1>Tabela Periodica:  Elemento 123</h1>
+    </div>
+
+<div align="center">
+<table style="width: 100%; height: 100%;" border="0" cellpadding="2" cellspacing="2">
+<BR>
+  <tbody>
+    <tr><td align="center"> <IMG SRC="limage/123.png" ALT="123" HEIGHT="60%" WIDTH="100%" border=0></td></tr></tbody></table></div>
+<div align="center">
+<table style="width: 100%; height: 100%;" border="0" cellpadding="2" cellspacing="2">
+<h3>" " centésimo vigésimo terceiro elemento da Tabela Periodica</h3>
+<tbody>
+    <tr><td align="center"> <?php include('./txt/123.txt');?>
+    <?php
+        include 'bottomt.php';?>
+</td></tr></tbody></table></body></html>
+
+
