@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="content-type" content="text/html;  charset=utf-8">
+    <link href="stilo1.css" rel="stylesheet"  type="text/css" />
+</head>
+<body>
+    <div id="content" align="center">
+
+   <table WIDTH="100%">   
+  <h1>Tabela Periodica -  Vanadio</h1>
+     <IMG SRC="./image/23.png" ALT="vanadio" HEIGHT="70%" WIDTH="100%">
+</table>
+<div align="left">
+<h3>Vanadio vigesimo terceiro elemento da Tabela periodica</h3>
+<B>
+</B>
+   </div>
+ 
+ <ul class="navbar"><li> <a href=" cromot.html">Próximo Elemento</a></li><li> <a href="titaniot.html">Elemento Anterior</a></li>
+ <li>
+<a href="virtualt.html">  Inicio </a></li>
+ </ul>
+
+</div></body></html>
+
+
