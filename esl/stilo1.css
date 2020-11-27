@@ -1,0 +1,52 @@
+  body {
+     padding-center: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    font-size:10pt;
+    color: black;
+    background-color: #fcfcfc }
+    ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    position: relative;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+    h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+color: blue
+ }
+          ul.navbar li {
+    background: Blue;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid red }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+         color: silver }
+  a:visited {
+    color: pink }
+a:hover { color: white }
+a:active { color: #66ffb3 }
+    address {
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: solid black 3px }
+li.pro a {
+     color: #66ffb3 }
+li.art a {
+     color: #66ffb3 }
+li.pre a {
+     color: #66ffb3 }
+li.any a {
+     color: #66ffb3 }
+li.lik a {
+     color: #66ffb3 }
+li.verb a {
+     color: #66ffb3 }
+    
+   
