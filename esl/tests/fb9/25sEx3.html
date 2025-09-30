@@ -1,0 +1,148 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Listening Exercise</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #2a5d84;
+    }
+    .blank {
+      width: 120px;
+      border: 1px solid #888;
+      padding: 3px;
+      margin: 0 5px;
+    }
+    .correct {
+      border: 2px solid green;
+      background-color: #e0ffe0;
+    }
+    .incorrect {
+      border: 2px solid red;
+      background-color: #ffe0e0;
+    }
+    .controls {
+      margin-top: 15px;
+    }
+    #recordingsList audio {
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>American Culture Listening Exercise</h2>
+
+  <!-- Listening Audio -->
+  <p><b>Step 1:</b> Listen to the audio carefully.</p>
+  <audio controls>
+    <source src="mp3/M25sEx3.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Fill in the blanks -->
+  <p><b>Step 2:</b> Fill in the blanks.</p>
+  <p>
+    In Canada and in some parts of the United States, winter is very 
+    <input class="blank" type="text">. 
+    People stay indoors for months and the free time they have is used to play outside, 
+    to walk or to take part in some activities in the 
+    <input class="blank" type="text"> like riding snowmobiles, going snowboarding, 
+    <input class="blank" type="text"> and making snowmen. 
+    During the 
+    <input class="blank" type="text">, 
+    there are trucks that clean the streets daily, because of the amount of snow accumulated. 
+    The tires have to be changed, because the streets are slippery. 
+    During the winter, people wear heavy 
+    <input class="blank" type="text">, coats and 
+    <input class="blank" type="text"> because of the low temperatures.
+  </p>
+
+  <button id="checkAnswers">Check Answers</button>
+
+  <!-- Vocabulary -->
+  <h3>Vocabulary Help:</h3>
+  <ul>
+    <li>Cold :</li>
+    <li>Snow :</li>
+    <li>Skiing :</li>
+    <li>Winter :</li>
+    <li>Boots : </li>
+    <li>Gloves :</li>
+  </ul>
+
+  <!-- Recording -->
+  <h3>Step 3: Record Yourself Reading the Text</h3>
+  <p>Click start to record your voice, then stop to save and listen.</p>
+  <div class="controls">
+    <button id="recordButton">Start Recording</button>
+    <button id="stopButton" disabled>Stop Recording</button>
+  </div>
+  <h4>Your Recordings:</h4>
+  <ul id="recordingsList"></ul>
+
+  <script>
+    // --- Correct Answers ---
+    const answers = ["cold", "snow", "skiing", "winter", "boots", "gloves"];
+
+    // Check Answers
+    document.getElementById("checkAnswers").addEventListener("click", () => {
+      const inputs = document.querySelectorAll(".blank");
+      inputs.forEach((input, i) => {
+        if (input.value.trim().toLowerCase() === answers[i]) {
+          input.classList.add("correct");
+          input.classList.remove("incorrect");
+        } else {
+          input.classList.add("incorrect");
+          input.classList.remove("correct");
+        }
+      });
+    });
+
+    // --- Recording Script ---
+    let mediaRecorder;
+    let audioChunks = [];
+    const recordButton = document.getElementById("recordButton");
+    const stopButton = document.getElementById("stopButton");
+    const recordingsList = document.getElementById("recordingsList");
+
+    recordButton.addEventListener("click", async () => {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      mediaRecorder = new MediaRecorder(stream);
+      mediaRecorder.start();
+      audioChunks = [];
+
+      mediaRecorder.addEventListener("dataavailable", event => {
+        audioChunks.push(event.data);
+      });
+
+      mediaRecorder.addEventListener("stop", () => {
+        const audioBlob = new Blob(audioChunks, { type: "audio/wav" });
+        const audioUrl = URL.createObjectURL(audioBlob);
+        const audio = document.createElement("audio");
+        audio.controls = true;
+        audio.src = audioUrl;
+        const li = document.createElement("li");
+        li.appendChild(audio);
+        recordingsList.appendChild(li);
+      });
+
+      recordButton.disabled = true;
+      stopButton.disabled = false;
+    });
+
+    stopButton.addEventListener("click", () => {
+      mediaRecorder.stop();
+      recordButton.disabled = false;
+      stopButton.disabled = true;
+    });
+  </script>
+</body>
+</html>
+```
