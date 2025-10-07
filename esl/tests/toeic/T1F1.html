@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toeic - International English Test </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      text-align: center;
+    }
 
+    /* Container for the big image */
+    .big-image {
+      width: 100%;
+      max-width: 800px; /* limit on large screens */
+      margin: 0 auto 20px;
+    }
+
+    .big-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* Audio player */
+    .audio-player {
+      margin: 20px auto;
+      max-width: 800px;
+    }
+
+    /* Thumbnail grid */
+    .thumbs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      gap: 10px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .thumbs img {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .thumbs img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Toeic - English Test :Part 1</h1>
+
+  <!-- Big image display -->
+  <div class="big-image">
+    <img id="mainImage" src="../img/img1.png" alt="Preview">
+  </div>
+
+  <!-- Audio player -->
+  <div class="audio-player">
+    <audio controls>
+      <source src="p1F1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <!-- Thumbnails -->
+  <div class="thumbs">
+    <img src="images/img1_thumb.jpg" data-full="../img/img1.png" alt="pic 1">
+    <img src="images/img2_thumb.jpg" data-full="../img/img2.png" alt="pic 2">
+    <img src="images/img3_thumb.jpg" data-full="../img/img3.png" alt="pic 3">
+    <img src="images/img4_thumb.jpg" data-full="../img/img4.png" alt="pic 4">
+    <img src="images/img5_thumb.jpg" data-full="../img/img5.png" alt="pic 5">
+    <img src="images/img6_thumb.jpg" data-full="../img/img6.png" alt="pic 6">
+    <img src="images/img7_thumb.jpg" data-full="../img/img7.png" alt="pic 7">
+    <img src="images/img8_thumb.jpg" data-full="../img/img8.png" alt="pic 8">
+    <img src="images/img9_thumb.jpg" data-full="../img/img9.png" alt="pic 9">
+    <img src="images/img10_thumb.jpg" data-full="../img/img10.png" alt="pic 10">
+  </div>
+
+  <script>
+    const mainImage = document.getElementById('mainImage');
+    const thumbs = document.querySelectorAll('.thumbs img');
+
+    thumbs.forEach(thumb => {
+      thumb.addEventListener('click', () => {
+        mainImage.src = thumb.dataset.full; // change big image
+      });
+    });
+  </script>
+
+</body>
+</html>
+```
