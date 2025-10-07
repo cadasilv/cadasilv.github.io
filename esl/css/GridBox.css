@@ -1,0 +1,154 @@
+/* ======== GLOBAL BODY STYLES ======== */
+body {
+    padding-center: 11em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 10pt;
+    color: black;
+    background-color: #fcfcfc;
+}
+
+/* ======== BOX CONTAINER ======== */
+div.box {
+    background-color: #fcfcfc;
+    max-width: 675px;
+    margin: 20px auto 50px;
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    box-shadow: 8px 15px 20px #404040;
+
+    /* Grid layout inside the box */
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+        "header header header"
+        "aside main main"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* ======== LOGO & TEXT STYLES ======== */
+img.logo {
+    float: right;
+    margin: -10px 0 0 30px;
+}
+
+p {
+    font-size: 12px;
+    color: #000000;
+}
+
+/* ======== NAVIGATION BAR ======== */
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+}
+
+ul.navbar li {
+    background: Blue;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid red;
+}
+
+ul.navbar a {
+    text-decoration: none;
+}
+
+a:link { color: silver; }
+a:visited { color: pink; }
+a:hover { color: white; }
+a:active { color: #66ffb3; }
+
+/* ======== CUSTOM LINK COLORS FOR CLASSES ======== */
+li.pro a,
+li.art a,
+li.pre a,
+li.any a,
+li.lik a,
+li.verb a {
+    color: #66ffb3;
+}
+
+/* ======== ADDRESS STYLING ======== */
+address {
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: solid black 3px;
+}
+
+/* ======== HEADINGS ======== */
+h1 {
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+    color: blue;
+}
+
+/* ======== GRID SECTIONS ======== */
+
+/* HEADER */
+.o-header {
+    grid-area: header;
+    background: #ffffff;
+    color: #1a1aff;
+    font-size: 14px;
+    padding: 2rem;
+}
+.o-header h1 { font-size: 28px; color: #0000cc; }
+.o-header h2 { font-size: 22px; color: #333399; }
+.o-header p  { font-size: 13px; color: #444444; }
+.o-header a { color: #ff0000; text-decoration: none; }
+.o-header a:hover { text-decoration: underline; }
+
+/* ASIDE */
+.o-aside {
+    grid-area: aside;
+    background: #0000cc;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 1rem;
+}
+.o-aside h1 { font-size: 20px; color: #ffffff; }
+.o-aside h2 { font-size: 16px; color: #ffffff; }
+.o-aside p  { font-size: 12px; color: #ffffff; }
+.o-aside a { color: #ffffff; text-decoration: none; }
+.o-aside a:hover { text-decoration: underline; }
+
+/* MAIN */
+.o-main {
+    grid-area: main;
+    background: #0000cc;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 1rem;
+}
+.o-main h1 { font-size: 26px; color: #ffffff; }
+.o-main h2 { font-size: 18px; color: #ffffff; }
+.o-main p  { font-size: 13px; color: #ffffff; }
+.o-main a { color: #ffffff; text-decoration: none; }
+.o-main a:hover { text-decoration: underline; }
+
+/* FOOTER */
+.o-footer {
+    grid-area: footer;
+    background: #0000cc;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 1rem;
+    text-align: center;
+
+    /* Make footer span the full page width */
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.o-footer h1 { font-size: 18px; color: #ffffff; }
+.o-footer h6 { font-size: 9px; color: #ffffff; }
+.o-footer p  { font-size: 10px; color: #ffffff; }
+.o-footer a { color: #ff6600; text-decoration: none; }
+.o-footer a:hover { text-decoration: underline; }
