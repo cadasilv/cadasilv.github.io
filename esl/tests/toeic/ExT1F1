@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toeic Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      text-align: center;
+    }
+
+    /* Container for the big image */
+    .big-image {
+      width: 100%;
+      max-width: 800px; /* limit on large screens */
+      margin: 0 auto 20px;
+    }
+
+    .big-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* Audio player */
+    .audio-player {
+      margin: 20px auto;
+      max-width: 800px;
+    }
+       </style>
+</head>
+<body>
+
+  <h1>Toeic International English Test</h1>
+  <p>In this page you will have access to an example from the questions in part I.
+Listen very carefully all that is said!  
+     
+  
+   <!-- Audio player -->
+  <div class="audio-player">
+    <audio controls>
+      <source src="T_example.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <!-- Big image display -->
+  <div class="big-image">
+    <img id="mainImage" src="../img/t-example.jpg" alt="Preview">
+  </div>
+<p> <a href="T1F1.html">Click here to start the test</a>
+  
+</body>
+</html>
+```
 
