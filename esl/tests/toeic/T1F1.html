@@ -1,21 +1,31 @@
+<!--Perfect 👍 here’s the upgraded version —
+same behavior as before, but now the **answers box automatically scrolls to the bottom** whenever a new answer is added.
+That way, students always see the latest answer even with many images.
+
+--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toeic - International English Test </title>
+  <title>Listening Test – Toeic Sample Test</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
       text-align: center;
+      background-color: #f5f5f5;
     }
 
-    /* Container for the big image */
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
     .big-image {
       width: 100%;
-      max-width: 800px; /* limit on large screens */
-      margin: 0 auto 20px;
+      max-width: 800px;
+      margin: 0 auto 15px;
     }
 
     .big-image img {
@@ -25,19 +35,50 @@
       box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
 
-    /* Audio player */
     .audio-player {
-      margin: 20px auto;
+      margin: 15px auto;
       max-width: 800px;
     }
 
-    /* Thumbnail grid */
+    .question {
+      max-width: 800px;
+      margin: 15px auto;
+      background: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    label {
+      background-color: #e0e0e0;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    input[type="radio"]:checked + label {
+      background-color: #4caf50;
+      color: white;
+    }
+
     .thumbs {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
       gap: 10px;
       max-width: 800px;
-      margin: 0 auto;
+      margin: 20px auto;
     }
 
     .thumbs img {
@@ -52,18 +93,50 @@
       transform: scale(1.05);
       box-shadow: 0 2px 6px rgba(0,0,0,0.4);
     }
+
+    .send-section {
+      margin-top: 20px;
+      font-size: 1rem;
+    }
+
+    .send-section textarea {
+      width: 90%;
+      max-width: 800px;
+      height: 120px;
+      margin-top: 10px;
+      border-radius: 6px;
+      padding: 10px;
+      font-size: 1rem;
+      resize: none;
+      overflow-y: auto;
+    }
+
+    .send-section a {
+      display: inline-block;
+      margin: 8px;
+      padding: 10px 15px;
+      background: #0078d7;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .send-section a:hover {
+      background: #005ea8;
+    }
   </style>
 </head>
 <body>
 
-  <h1>Toeic - English Test :Part 1</h1>
+  <h1>Listening Test</h1>
+  <p>Click a picture, listen to the sentences, and choose the correct answer.</p>
 
-  <!-- Big image display -->
+  <!-- Big image -->
   <div class="big-image">
-    <img id="mainImage" src="./img/img1.png" alt="Preview">
+    <img id="mainImage" src="../img/img1.png" alt="Preview">
   </div>
 
-  <!-- Audio player -->
+  <!-- Audio -->
   <div class="audio-player">
     <audio controls>
       <source src="p1F1.mp3" type="audio/mpeg">
@@ -71,27 +144,73 @@
     </audio>
   </div>
 
-  <!-- Thumbnails -->
+  <!-- Question Options -->
+  <div class="question">
+    <p><strong>Choose the correct sentence:</strong></p>
+    <div class="options">
+      <input type="radio" id="optionA" name="answer" value="A">
+      <label for="optionA">A</label>
+
+      <input type="radio" id="optionB" name="answer" value="B">
+      <label for="optionB">B</label>
+
+      <input type="radio" id="optionC" name="answer" value="C">
+      <label for="optionC">C</label>
+
+      <input type="radio" id="optionD" name="answer" value="D">
+      <label for="optionD">D</label>
+    </div>
+  </div>
+
+ <!-- Thumbnails -->
   <div class="thumbs">
-    <img src="images/img1_thumb.jpg" data-full="./img/img1.png" alt="pic 1">
-    <img src="images/img2_thumb.jpg" data-full="./img/img2.png" alt="pic 2">
-    <img src="images/img3_thumb.jpg" data-full="./img/img3.png" alt="pic 3">
-    <img src="images/img4_thumb.jpg" data-full="./img/img4.png" alt="pic 4">
-    <img src="images/img5_thumb.jpg" data-full="./img/img5.png" alt="pic 5">
-    <img src="images/img6_thumb.jpg" data-full="./img/img6.png" alt="pic 6">
-    <img src="images/img7_thumb.jpg" data-full="./img/img7.png" alt="pic 7">
-    <img src="images/img8_thumb.jpg" data-full="./img/img8.png" alt="pic 8">
-    <img src="images/img9_thumb.jpg" data-full="./img/img9.png" alt="pic 9">
-    <img src="images/img10_thumb.jpg" data-full="./img/img10.png" alt="pic 10">
+    <img src="images/img1_thumb.jpg" data-full="../img/img1.png" alt="Thumb 1">
+    <img src="images/img2_thumb.jpg" data-full="../img/img2.png" alt="Thumb 2">
+    <img src="images/img3_thumb.jpg" data-full="../img/img3.png" alt="Thumb 3">
+    <img src="images/img4_thumb.jpg" data-full="../img/img4.png" alt="Thumb 4">
+    <img src="images/img5_thumb.jpg" data-full="../img/img5.png" alt="Thumb 5">
+    <img src="images/img6_thumb.jpg" data-full="../img/img6.png" alt="Thumb 6">
+    <img src="images/img7_thumb.jpg" data-full="../img/img7.png" alt="Thumb 7">
+    <img src="images/img8_thumb.jpg" data-full="../img/img8.png" alt="Thumb 8">
+    <img src="images/img9_thumb.jpg" data-full="../img/img9.png" alt="Thumb 9">
+    <img src="images/img10_thumb.jpg" data-full="../img/img10.png" alt="Thumb 10">
+  </div>
+
+  <!-- Answers Section -->
+  <div class="send-section">
+    <p><strong>Your selected answers:</strong></p>
+    <textarea id="answersBox" readonly placeholder="Your answers will appear here..."></textarea>
+
+    <p><strong>Send your answers to:</strong></p>
+    <a href="mailto:vilela0928@gmail.com?subject=Listening%20Test%20Answers">📧 Send by Email</a>
+    <a href="https://wa.me/55991205300" target="_blank">💬 Send by WhatsApp</a>
   </div>
 
   <script>
     const mainImage = document.getElementById('mainImage');
     const thumbs = document.querySelectorAll('.thumbs img');
+    const answersBox = document.getElementById('answersBox');
 
-    thumbs.forEach(thumb => {
+    thumbs.forEach((thumb) => {
       thumb.addEventListener('click', () => {
-        mainImage.src = thumb.dataset.full; // change big image
+        mainImage.src = thumb.dataset.full;
+        document.querySelectorAll('input[name="answer"]').forEach(r => r.checked = false);
+      });
+    });
+
+    const options = document.querySelectorAll('input[name="answer"]');
+    let answers = {};
+
+    options.forEach(option => {
+      option.addEventListener('change', () => {
+        const currentImage = mainImage.src.split('/').pop();
+        answers[currentImage] = option.value;
+        let text = '';
+        Object.keys(answers).forEach(key => {
+          text += `${key}: ${answers[key]}\n`;
+        });
+        answersBox.value = text.trim();
+        answersBox.scrollTop = answersBox.scrollHeight; // auto-scroll to bottom
       });
     });
   </script>
@@ -99,3 +218,13 @@
 </body>
 </html>
 ```
+
+<!-- 
+
+✅ **What’s new:**
+
+* The `answersBox` automatically scrolls down whenever a new answer is added.
+* This helps when students go through all 10 images (or more, if you add).
+
+Would you like me to make it so the **question text** (like “Choose the correct sentence”) changes dynamically for each image later — for example, different instructions per image?
+-->
