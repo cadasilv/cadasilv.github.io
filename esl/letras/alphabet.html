@@ -1,44 +1,131 @@
-<html><head><title>lessons-Alphabet</title>
-<link href="../stilo1.css" rel="stylesheet"  type="text/css"/>
-<meta name="viewport" content="width=device-width">
-<script type="text/javascript" src="../js/alfabeto.js"></script>
+<html>
+<head>
+  <title>lessons-Alphabet</title>
+  <link href="../stilo2.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width">
+  <script type="text/javascript">
+    var currentIndex = 0;
+    var letters = [
+      { letter: "A", word: "Apple" },
+      { letter: "B", word: "Ball" },
+      { letter: "C", word: "Cat" },
+      { letter: "D", word: "Dog" },
+      { letter: "E", word: "Elephant" },
+      { letter: "F", word: "Fish" },
+      { letter: "G", word: "Grapes" },
+      { letter: "H", word: "Hat" },
+      { letter: "I", word: "Ice cream" },
+      { letter: "J", word: "Juice" },
+      { letter: "K", word: "Kite" },
+      { letter: "L", word: "Lion" },
+      { letter: "M", word: "Monkey" },
+      { letter: "N", word: "Nest" },
+      { letter: "O", word: "Orange" },
+      { letter: "P", word: "Pen" },
+      { letter: "Q", word: "Queen" },
+      { letter: "R", word: "Rabbit" },
+      { letter: "S", word: "Sun" },
+      { letter: "T", word: "Tree" },
+      { letter: "U", word: "Umbrella" },
+      { letter: "V", word: "Violin" },
+      { letter: "W", word: "Watch" },
+      { letter: "X", word: "Xylophone" },
+      { letter: "Y", word: "Yacht" },
+      { letter: "Z", word: "Zebra" }
+    ];
+
+    function showSlide(direction) {
+      if (direction === 'next') {
+        currentIndex = (currentIndex + 1) % letters.length;
+      } else if (direction === 'previous') {
+        currentIndex = (currentIndex - 1 + letters.length) % letters.length;
+      }
+
+      updateContent();
+      playLetterSound(letters[currentIndex].letter);
+    }
+
+    // âœ… Updated to use A.png, B.png, etc.
+    function updateContent() {
+      var current = letters[currentIndex];
+      document.images["slideframe"].src = "../img/alphabet/" + current.letter.toUpperCase() + ".png";
+      document.getElementById("letterTitle").innerHTML = current.letter + " - " + current.word;
+      document.forms["slidecontrols"].caption.value = "Letter: " + current.letter + " - " + current.word;
+    }
+
+    function playLetterSound(letter) {
+      var audio = document.getElementById("letterAudio");
+      audio.src = "../audio/alphabet/" + letter.toLowerCase() + ".mp3";
+      audio.play();
+    }
+
+    window.onload = function() {
+      updateContent();
+      playLetterSound(letters[currentIndex].letter);
+    };
+  </script>
 </head>
 
 <body bgcolor="white" align="center">
-<img src="../img/esl0.png" alt="ESL Logo" border="0px" width="100%" height="17%;">
-<div align="left">
-<h2>Alphabet Letters </h2><p>
-Here we will learn the letters of the alphabet and their sound in english.
-<br>We will see also some objects that start with each letter.<br>
-Aqui vamos aprender as letras do alfabeto e seus sons em ingles.<br>
-Tambem, veremos objetos e coisas que começam com cada letra.</p> 
-<img src="../img/27.png" name="slideframe"
-width="100%" height="70%" alt="Lessons">
-</div>
-<div align="top">
-<form name="slidecontrols">
-<p><textarea name="caption" rows="2" cols="50">Alphabet. </textarea><br><br>
-Lesson Name:
-<input type="TEXT" value="Alphabet" name="Actual lesson"
-size="5"></form>
-<button type="buton" 
-onclick="showSlide('previous');">Previous lesson</button>
-<button type="buton" 
-onclick="showSlide('next');">Next lesson</button>
-<br>
-</p>
-<ul class="navbar">
-<p align="left">Próxima Apresentação:</p>
-          <li><a href="../room/myhome.html">My Home</a></li></ul>
- 
-</div><div align="center">
-<ul class="navbar">
-          <li><a href="../index.html">Inicio</a></li>   
-          <li><a href="mailto:vilela0928@gmail.com">Email duvidas</a></li>
-         </ul></div><br><br><div align="center">
-<font color="navy" size="2" face="Calibri, IrisUPC"><strong> 
-  <H5>Copyright 2021 Cesar Augusto Vilela da Silva BEYTUDODEBOM.COM.BR Comunicações</H5></strong></font><strong><font color="#990099">.</font></strong><br>
-</div>
- </body>
+  <div class="box">
+    <img src="../img/esl0.png" alt="ESL Logo" border="0px" width="100%" height="17%">
+    <div align="left">
+      <h2>Alphabet Letters</h2>
+      <p>
+        Here we will learn the letters of the alphabet and their sound in English.<br>
+        We will also see some objects that start with each letter.<br>
+        Aqui vamos aprender as letras do alfabeto e seus sons em inglÃªs.<br>
+        TambÃ©m veremos objetos e coisas que comeÃ§am com cada letra.
+      </p>
+
+      <h3 id="letterTitle" style="color: navy; text-align: center;">A - Apple</h3>
+
+      <img src="../img/alphabet/A.png" name="slideframe" width="100%" height="70%" alt="Lessons">
+    </div>
+
+    <div align="top">
+      <form name="slidecontrols">
+        <p>
+          <textarea name="caption" rows="2" cols="40">Letter: A - Apple</textarea><br><br>
+          Lesson Name:
+          <input type="TEXT" value="Alphabet" name="Actual lesson" size="5">
+        </p>
+
+        <button type="button" onclick="showSlide('previous');">Previous lesson</button>
+        <button type="button" onclick="showSlide('next');">Next lesson</button>
+        <button type="button" onclick="playLetterSound(letters[currentIndex].letter)">ðŸ”Š Play Sound</button>
+      </form>
+
+      <ul class="navbar">
+        <p align="left">PrÃ³xima ApresentaÃ§Ã£o:</p>
+        <li><a href="../room/myhome.html">My Home</a></li>
+      </ul>
+    </div>
+
+    <div align="center">
+      <ul class="navbar">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="mailto:vilela0928@gmail.com">Email dÃºvidas</a></li>
+      </ul>
+    </div>
+
+    <br><br>
+
+    <div align="center">
+      <font color="navy" size="2" face="Calibri, IrisUPC">
+        <strong>
+          <h5>Copyright 2025 Cesar Augusto Vilela da Silva
+            BEYTUDODEBOM.COM.BR ComunicaÃ§Ãµes</h5>
+        </strong>
+      </font>
+      <strong><font color="#990099">.</font></strong><br>
+    </div>
+  </div>
+
+  <!-- Audio element for letter sounds -->
+  <audio id="letterAudio"></audio>
+</body>
 </html>
+
+
 
